@@ -11,6 +11,14 @@ if school=="School of engineering":
         print(n)
     else:
         print("not available")
+        
+        if school==" school of design":
+            print("select options:\nBdes\nMdes")
+            n=input("Enter stream:")
+            if n=="Bdes" or n=="Mdes:
+               print(n)
+    else:
+        print("not available")
 elif school=="School of management":
     print("Select options:\nBBA\nMBA")
     n=input("Enter stream:")
@@ -22,6 +30,7 @@ s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
 k=input("Faculty name:")
+
 
 
 
